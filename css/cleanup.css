@@ -1,1 +1,46 @@
-/* write your override styles here */
+.tag-1, 
+#tag-2, 
+#tag-3, 
+#tag-4, 
+#tag-5, 
+#tag-6, 
+#tag-7 {
+  display: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  position: static !important;
+  visibility: hidden !important;
+  filter: none !important;
+  transform: scale(0) !important;
+  transition: all 0.5s ease-out !important;
+}
+
+/* Restore the clean wall */
+#wall {
+  background: url(../images/clean-wall.jpg) no-repeat center !important;
+  background-size: cover !important;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5) !important;
+  border: 10px solid white !important;
+  border-bottom: 50px solid white !important;
+  filter: none !important;
+  opacity: 1 !important;
+  position: relative !important;
+  margin: 40px auto !important;
+  width: 980px !important;
+  height: 622px !important;
+  z-index: 0 !important;
+}
+
+/* Ensure no other overriding tags */
+* {
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
